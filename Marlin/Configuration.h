@@ -1,3 +1,17 @@
+/**  Gurgek  **/
+
+/**
+ * Geeetech specific PIN definitions / changes
+ * 
+ */
+ 
+#define FAN_PIN                   P1_00
+#define CONTROLLER_FAN_PIN        P2_03
+#define E0_AUTO_FAN_PIN           P1_25
+#define E1_AUTO_FAN_PIN           P1_25
+
+
+
 /**
  * Marlin 3D Printer Firmware
  * Copyright (c) 2020 MarlinFirmware [https://github.com/MarlinFirmware/Marlin]
@@ -71,7 +85,7 @@
 // @section info
 
 // Author info of this build printed to the host during boot and M115
-#define STRING_CONFIG_H_AUTHOR "(none, default config)" // Who made the changes.
+#define STRING_CONFIG_H_AUTHOR "(Tobbe, Geeetech)" // Who made the changes.
 //#define CUSTOM_VERSION_FILE Version.h // Path from the root directory (no quotes)
 
 /**
@@ -89,7 +103,7 @@
 #define SHOW_BOOTSCREEN
 
 // Show the bitmap in Marlin/_Bootscreen.h on startup.
-//#define SHOW_CUSTOM_BOOTSCREEN
+#define SHOW_CUSTOM_BOOTSCREEN
 
 // Show the bitmap in Marlin/_Statusscreen.h on the status screen.
 //#define CUSTOM_STATUS_SCREEN_IMAGE
